@@ -1,3 +1,12 @@
 language: node_js
 before_install: npm install -g mocha
-
+deploy:
+  provider: s3
+  access_key_id: AKIAIDPKVI45XOOBATFA
+  secret_access_key:
+    secure: fsSvEQ0Z/+UCiNKCKKFFZr8F+nJkVUm+AmtCD52IBjzI1jW91FmekqW4jbIRnAgjZpUJLJ/KxJm/jWgJC9e+SXayGd+jSV3p69Jm9YCd+m0fXsAi9X2qDSkGaka3NNy2jwfR/JbjSBoRup7GpifjbTdEbrnJJht4blhyvD7ou6A=
+  bucket: deploy-weeia
+  upload-dir: borowiecka
+  acl: ''
+  on:
+    repo: iza16/ciTestBorowiecka
