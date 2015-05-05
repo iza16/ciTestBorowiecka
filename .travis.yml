@@ -7,6 +7,6 @@ deploy:
     secure: fsSvEQ0Z/+UCiNKCKKFFZr8F+nJkVUm+AmtCD52IBjzI1jW91FmekqW4jbIRnAgjZpUJLJ/KxJm/jWgJC9e+SXayGd+jSV3p69Jm9YCd+m0fXsAi9X2qDSkGaka3NNy2jwfR/JbjSBoRup7GpifjbTdEbrnJJht4blhyvD7ou6A=
   bucket: deploy-weeia
   upload-dir: borowiecka
-  acl: ''
+  acl: 'FULL_CONTROL'
   on:
     repo: iza16/ciTestBorowiecka
